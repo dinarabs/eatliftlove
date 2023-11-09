@@ -7,10 +7,16 @@ const movementSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  description: {
+    type: String,
+  },
   videoUrl: {
     type: String,
   },
   imageUrl: {
+    type: String,
+  },
+  category: {
     type: String,
   },
 });
