@@ -3,13 +3,14 @@ const mongoose = require('../db.js');
 
 // TODO update
 const workoutSchema = mongoose.Schema({
-  name: {
+  description: {
     type: String,
     required: true,
   },
-  // videoUrl: {
-  //   type: String,
-  // },
+  levels: {
+    type: String,
+    required: true,
+  },
   imageUrl: {
     type: String,
   },

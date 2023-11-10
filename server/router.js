@@ -9,7 +9,10 @@ const workoutController = require('./controllers/workoutController');
 
 // TODO update routers
 router.get('/movements', movementController.getAllMovements);
-router.get('/movements/:id', movementController.getMovementById);
+// TODO add post router
+// router.post('/movement', movementController.postMovement);
+// router.get('/movements/:id', movementController.getMovementById);
 router.get('/workouts', workoutController.getAllWorkouts);
+router.post('/workout', workoutController.postWorkout);
 
 module.exports = router;
