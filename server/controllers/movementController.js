@@ -1,14 +1,12 @@
 'use strict';
 const Movement = require('../models/movement');
 
-// TODO create requests
 module.exports = {
   getAllMovements: async (req, res) => {
     try {
-      // TODO add logic
       const movements = await Movement.find();
+      res.status(200);
       res.send(movements);
-      res.sendStatus(200);
     } catch (error) {
       console.error('error', error);
       // Handle the error or send an error response to the client
@@ -16,13 +14,27 @@ module.exports = {
     }
   },
 
-  getMovementById: async (req, res) => {
-    // try {
-    //   // TODO add logic
-    // } catch (error) {
-    //   console.error(`Error in getMovementById: ${error.message}`);
-    //   // Handle the error or send an error response to the client
-    //   res.status(500).json({ error: 'Internal server error' });
-    // }
+  getMovementByName: async (req, res) => {
+    try {
+      const movement = await Movement.findOne({ name: req.params.name });
+      res.status(200);
+      res.send(movement);
+    } catch (error) {
+      console.error(`Error in getMovementByName: ${error.message}`);
+      // Handle the error or send an error response to the client
+      res.status(500).json({ error: 'Internal server error' });
+    }
+  },
+
+  postMovement: async (req, res) => {
+    try {
+      const movement = await Movement.create(req.body);
+      res.status(201);
+      res.send(movement);
+    } catch (error) {
+      console.error(`Error in getMovementByName: ${error.message}`);
+      // Handle the error or send an error response to the client
+      res.status(500).json({ error: 'Internal server error' });
+    }
   },
 };
