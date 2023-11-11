@@ -28,7 +28,6 @@ const NavigationBar = () => {
 					}}
 					placeholder="Search movements..."
 					size="sm"
-					// startContent={<SearchIcon size={18} />}
 					type="search"
 				/>
 			</NavbarContent>

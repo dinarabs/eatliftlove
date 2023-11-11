@@ -2,20 +2,26 @@ import { Card, CardFooter, Image, CardBody } from '@nextui-org/react'
 import wodCard from '../assets/wod-card.jpg'
 import movementCard from '../assets/movement-card.jpg'
 import findagymCard from '../assets/findagym-card.jpg'
+import { useNavigate } from 'react-router-dom'
 
 const CardList = () => {
+	const navigate = useNavigate()
+
 	const list = [
 		{
 			title: 'WOD',
 			img: wodCard,
+			navLink: '/wod',
 		},
 		{
 			title: 'Movements',
 			img: movementCard,
+			navLink: '/movements',
 		},
 		{
 			title: 'Find a gym nearby',
 			img: findagymCard,
+			navLink: '/findagym',
 		},
 	]
 
@@ -26,7 +32,7 @@ const CardList = () => {
 					shadow="sm"
 					key={index}
 					isPressable
-					onPress={() => console.log('item pressed')}
+					onPress={navigate(item.navLink)}
 				>
 					<CardBody className="overflow-visible p-0 w-[260px]">
 						<Image

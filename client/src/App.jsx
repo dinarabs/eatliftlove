@@ -1,21 +1,33 @@
 import './App.css'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import NavigationBar from './components/NavigationBar'
-import Banner from './components/Banner'
-import CardList from './components/CardList'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import Workout from './pages/Workout'
+import Findagym from './pages/Findagym'
+import Movements from './pages/Movements'
 
 function App() {
 	// const [count, setCount] = useState(0)
 
 	return (
-		<Router>
-			<NavigationBar />
-			<Banner />
-			<CardList />
-			<Footer />
-		</Router>
+		<>
+			<Router>
+				<div className="App">
+					<NavigationBar />
+					<div className="content">
+						<Routes>
+							<Route path="/" element={<Home />} />
+							<Route path="/wod" element={<Workout />} />
+							<Route path="/movements" element={<Movements />} />
+							<Route path="/findagym" element={<Findagym />} />
+						</Routes>
+					</div>
+					<Footer />
+				</div>
+			</Router>
+		</>
 	)
 }
 
