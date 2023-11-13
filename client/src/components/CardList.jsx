@@ -4,6 +4,7 @@ import movementCard from '../assets/movement-card.jpg'
 import findagymCard from '../assets/findagym-card.jpg'
 import { useNavigate } from 'react-router-dom'
 
+// TODO pass as props the list fields to re-use this component in Movement.jsx
 const CardList = () => {
 	const navigate = useNavigate()
 
