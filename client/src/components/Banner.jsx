@@ -13,7 +13,7 @@ const Banner = () => {
 						contingency. Workouts are constantly varied, and incorporate
 						weightlifting, gymnastics, running, and more. <br />
 						<b>Guided by a Coach:</b> CrossFit meets you where you are at. Your
-						coach will adjust the workouts to be appropriatly challenging for
+						coach will adjust the workouts to be appropriately challenging for
 						you. As you learn what you are able to do now, you will be rewarded
 						with a new challenge to pursue next. <br />
 						<b>Fueled by Community:</b> CrossFit gyms are not cookie-cutter
@@ -29,7 +29,7 @@ const Banner = () => {
 						<br />
 					</p>
 
-					<p className="self-end">
+					<p className="self-end z-10 text-slate-400">
 						Photo by{' '}
 						<a href="https://unsplash.com/@johnarano?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
 							John Arano

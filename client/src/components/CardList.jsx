@@ -32,7 +32,7 @@ const CardList = () => {
 					shadow="sm"
 					key={index}
 					isPressable
-					onPress={navigate(item.navLink)}
+					onPress={() => navigate(item.navLink)}
 				>
 					<CardBody className="overflow-visible p-0 w-[260px]">
 						<Image
