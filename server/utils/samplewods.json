@@ -1,0 +1,42 @@
+[
+	{
+		"description": "1. Clean Complex<br>On the 2:30 x 5<br>2 Hang Power Cleans + 3 Front Squats<br>Build in Weight or to 80-85% of 1 RM<br>2.Conditioning<br>AMRAP 9<br>5,10,15,20<br> Hang Power Clean <br> Front Squats <br> - Rest 1 Minute - <br>AMRAP 9 <br>5,10,15,20<br>Calorie Echo Bike <br>10,20,30,40<br>Push Ups<br><br>",
+		"levels": "Sweat: 40/20<br>Train: 50/30<br>Compete: 60/40"
+	},
+	{
+		"description": "1.Gymnastic Strength<br>4 Sets<br>2/2 Turkish Get Ups<br>Into<br>30 - 40 Sec. Hanging L-Sit Hold or Tuck Hold <br>Rest 1:30 Minutes Between <br>2.Conditioning<br>On the 4:00 x 4 Rounds<br>12 Pull-Ups<br>21 Kettlebell Swings <br>400 Meter Run<br><br>",
+		"levels": "Sweat: 16/8; Ring Rows or Banded Pull Ups<br>Train: 20/12<br>Compete: 24/16"
+	},
+	{
+		"description": "1.Push Press<br>On the 2:30 x 5 Sets<br>8 Push Presses <br>Build in weight or to 70-75% of 1 RM<br>2.Conditioning<br>EMOM x 20 (5 Rounds)<br>Min 1: X Box Jumps (24\"/20\") <br>Min 2: 15 Push Presses <br>Min 3: X Calories Row<br>Min 4: Rest <br><br>",
+		"levels": "Sweat: 30/20; 12 BJ; 12/10 Calories<br>Train: 35/25; 16 BJ; 14/12 Calories<br>Compete: 40/30; 20 BJ; 16/14 Calories"
+	},
+	{
+		"description": "1.Deadlift<br>On the 2:00 x 7 Sets<br>5 Deadlifts<br>Build in Weight or to 80-85% of 1 RM<br>2.Conditioning<br>4 Rounds For Time<br>200 Meter Run <br>21-18-15-12- Toes to Bar <br>200 Meter Run <br>21-18-15-12- Deadlifts <br><br>",
+		"levels": "Sweat: 55/30; Knee Raises<br>Train: 70/45<br>Compete: 85/60<br>"
+	},
+	{
+		"description": "1. Overhead Squat<br> On the 2:30 x 5<br> 10-8-6-4-2<br> Overhead Squat<br> Start @50% of 1 RM<br> Build to 85-90% of 1 RM<br>2.Conditioning<br> AMRAP 16<br> 20 Overhead Squats <br> 80 Double Unders<br> 20 Burpees <br><br>",
+		"levels": "Sweat: 30/20; 160 Single Unders<br> Train: 35/25; 60 Double Unders<br> Compete: 40/30"
+	},
+	{
+		"description": "DAILYSWEAT<br> AMRAP 15<br> Assending Lader<br> 4,8,12,16,20 <br> Single Dumbbell Floor Press <br> 4,8,12,16,20<br> Box Jump Over (24\"/20\")<br> - Rest 3 Minutes -<br> AMRAP 15<br> Assending Lader<br> 4,8,12,16,20<br> Calories Echo Bike <br> 4,8,12,16,20<br> Kettlebell Swings<br><br>",
+		"levels": "Sweat: 15/10 ;16/8<br> Train: 17,5/12,5 ;20/12<br> Compete: 22,5/15 ;24/16<br>"
+	},
+	{
+		"description": "TEAMWORKOUT<br> In Teams of 2 <br> For Time: <br> 10 Rounds Each Partner <br> 5 Thrusters <br> 10 Chest to Bar Pull Ups<br> 100 Meter Sprint <br> * Switch After Full Round <br> <br>",
+		"levels": "Sweat: 30/25; Banded Pull Ups or Ring Rows<br> Train: 40/30; Pull Ups<br> Compete: 50/ 35; <br>"
+	},
+	{
+		"description": "1. Barbell Back Rack Reverse Lunges<br> On the 3:00 x 4 Sets<br> 16 Alt. Back Rack Reverse Lunges<br> Build in Weight!<br>2.Conditioning<br> E2MOM x 9 ( 3 Rounds)<br> Minute 1+2: 26 Alt. Dumbbell Snatches <br> Minute 3+4 x Laterall Dumbbell Burpees<br> Minute 5+6 x Calories Ski Erg<br><br>",
+		"levels": "Sweat: 17,5/12,5; 16 L. Burpees; 22/18 Calories<br> Train: 20/15; 24 L. Burpees; 26/22 Calories<br> Compete: 25/20; 28 L. Burpees; 30/26 Calories"
+	},
+	{
+		"description": "1.Gymnastics strength <br> EMOM x 12 (4 Rounds)<br> Minute 1: 5-8 Strict Pull Ups (build in weight if possible)<br> Minute 2: 20-30 Seconds Ring Supported Hold<br> https://www.youtube.com/watch?v=kONbxg4kzkE<br> Minute 3: Rest<br>2.Conditioning<br> Every 2:00 x 5 Rounds<br> 250/200 Meter Row <br> Remaining Time: Max AbMat Sit Ups<br> - Into - <br> Every 2:00 x 5 Rounds<br> 16 Single Dumbbell Push Jerk<br> Remaining Time: Max Toes to Bar<br><br>",
+		"levels": "Sweat: 15/10; Knee Raises<br> Train: 17,5/12,5<br> Compete: 22,5/15"
+	},
+	{
+		"description": "BENCHMARKWORKOUT<br>HAVANA<br> AMRAP in 25 minutes<br> 150 Double-Unders<br> 50 Push-Ups<br> 15 Power Cleans <br>",
+		"levels": "Sweat: 40/25; 300 Single Unders<br> Train: 60/40; 100 Double Unders<br> Compete 80/55"
+	}
+]
