@@ -1,16 +1,19 @@
 import { Navbar, NavbarBrand, NavbarContent, Input } from '@nextui-org/react'
 import Logo from '../assets/eatliftlove.svg'
+import { Link } from 'react-router-dom'
 
 const NavigationBar = () => {
 	return (
 		<Navbar isBordered>
 			<NavbarContent justify="start">
 				<NavbarBrand className="mr-4">
-					<img
-						className="md:h-12 bg-fuchsia-700 md:w-12 text-white rounded-[--nextui-radius-small]"
-						src={Logo}
-						alt="Eat Lift Love logo"
-					></img>
+					<Link to="/">
+						<img
+							className="md:h-12 bg-fuchsia-700 md:w-12 text-white rounded-[--nextui-radius-small]"
+							src={Logo}
+							alt="Eat Lift Love logo"
+						></img>
+					</Link>
 					<p className="hidden sm:block font-bold text-inherit font-mono p-3">
 						eat lift love
 					</p>
