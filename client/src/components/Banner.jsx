@@ -1,7 +1,7 @@
 const Banner = () => {
 	return (
 		<>
-			<div className="relative bg-[url('./assets/crossfit-banner.jpg')] h-96 w-full bg-cover bg-center flex item-center justify-center">
+			<div className="relative bg-[url('./assets/crossfit-banner.jpg')] h-[400px] w-full bg-cover bg-center flex item-center justify-center">
 				<div className="absolute inset-0 bg-black bg-opacity-30"></div>
 				<div className="flex flex-col w-full h-full justify-center p-4">
 					<h1 className="text-3xl font-bold text-center text-white z-10">

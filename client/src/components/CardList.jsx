@@ -27,7 +27,7 @@ const CardList = () => {
 	]
 
 	return (
-		<div className="flex item-center justify-between px-6 py-2 max-w-[1024px] mx-auto">
+		<div className="flex justify-between p-5 w-[1024px] mx-auto">
 			{list.map((item, index) => (
 				<Card
 					shadow="sm"

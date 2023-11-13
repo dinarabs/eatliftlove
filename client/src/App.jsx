@@ -9,8 +9,6 @@ import Findagym from './pages/Findagym'
 import Movements from './pages/Movements'
 
 function App() {
-	// const [count, setCount] = useState(0)
-
 	return (
 		<>
 			<Router>
