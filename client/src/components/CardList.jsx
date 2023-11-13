@@ -33,7 +33,11 @@ const CardList = () => {
 					shadow="sm"
 					key={index}
 					isPressable
-					onPress={() => navigate(item.navLink)}
+					onPress={() =>
+						setTimeout(() => {
+							navigate(item.navLink)
+						}, 500)
+					}
 				>
 					<CardBody className="overflow-visible p-0 w-[260px]">
 						<Image
