@@ -3,7 +3,7 @@ require('../db');
 const fs = require('fs');
 const Workout = require('../models/workout');
 
-fs.readFile('./samplewods.json', 'utf8', (err, data) => {
+fs.readFile('./sampleWods.json', 'utf8', (err, data) => {
   console.log(data);
   if (err) {
     console.error('Error reading file:', err);
