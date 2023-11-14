@@ -10,7 +10,7 @@ const CardList = ({ list }) => {
 		<div className="flex flex-wrap item-center justify-between p-5 max-w-[1024px] mx-auto">
 			{list.map((item, index) => (
 				<Card
-					className="m-2 bg-gradient-to-br from-[#86a2f3] to-[#1d2149]"
+					className="m-2 bg-gradient-to-br from-[#800080] to-[#6f17b2]"
 					shadow="sm"
 					key={index}
 					isPressable
@@ -27,7 +27,7 @@ const CardList = ({ list }) => {
 							width="100%"
 							alt={item.title}
 							className="w-full object-cover h-[240px]"
-							src={item.img}
+							src={item.img ? item.img : item.imageUrl}
 						/>
 					</CardBody>
 					<CardFooter className="text-small justify-center ">

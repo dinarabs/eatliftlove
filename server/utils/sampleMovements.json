@@ -3,63 +3,63 @@
 		"name": "Air Squat",
 		"description": "The squat is a beautiful, natural movement. It demands midline stabilization, posterior-chain engagement and core-to-extremity movement, and it can be used to move your body weight or very large loads held in a variety of positions. At one end of the spectrum, the squat is an essential component of weightlifting and powerlifting, and at the other end, the squat is essential to getting off a toilet seat. Regardless of what the problem is, the answer is to squat.",
 		"videoId": "rMvwVtlqjTE",
-		"imageUrl": "../images/air-squat.jpg",
+		"imageUrl": "/src/assets/air-squat.jpg",
 		"category": "Foundational movement"
 	},
 	{
 		"name": "Front Squat",
 		"description": "The front squat builds exactly on the mechanics of the air squat. All that is added is a load supported in the front-rack position, where the weight sits squarely on the upper chest and shoulders, and the elbows point forward to bring the upper arms parallel to the floor. This “rack position,” critical to weightlifting, both demands and improves wrist and shoulder flexibility while the load, supported by the torso, both demands and improves midline stability.",
 		"videoId": "uYumuL_G_V0",
-		"imageUrl": "../images/front-squat.jpg",
+		"imageUrl": "/src/assets/front-squat.jpg",
 		"category": "Foundational movement"
 	},
 	{
 		"name": "Overhead Squat",
 		"description": "“The overhead squat is the ultimate core exercise and peerless in developing effective athletic movement. This functional gem trains for efficient transfer of energy from large to small body parts and improves functional flexibility. Similarly, it develops the squat by amplifying and cruelly punishing faults in posture, movement, and stability. The overhead squat is to midline control, stability and balance what the clean and snatch are to power—unsurpassed.”  - Greg Glassman",
 		"videoId": "pn8mqlG0nkE",
-		"imageUrl": "../images/overhead-squat.jpg",
+		"imageUrl": "/src/assets/overhead-squat.jpg",
 		"category": "Foundational movement"
 	},
 	{
 		"name": "Shoulder Press",
 		"description": "Never is the stabilizing role of the abdominals more critical than when attempting to drive loads overhead. We train our athletes to think of every exercise as an ab exercise. This is essential in the overhead lifts. It is easy to see when an athlete is not sufficiently engaging the abs in an overhead press—the body arches so as to push the hips, pelvis, and stomach ahead of the bar. Constant vigilance is required of every lifter to prevent and correct this postural deformation.",
 		"videoId": "5yWaNOvgFCM",
-		"imageUrl": "../images/shoulder-press.jpg",
+		"imageUrl": "/src/assets/shoulder-press.jpg",
 		"category": "Foundational movement"
 	},
 	{
 		"name": "Push Press",
 		"description": "In the push press, the core-to-extremity principle is obvious as the muscles of the power zone — including the hip flexors, hip extensors (glutes and hams), spinal erectors, and quadriceps — assist the arms in driving the barbell overhead. With the push press, you will be able to move overhead as much as 30% more weight than with the shoulder press. Regular practice of the push press — and the push jerk — develops power and speed, which are critical to effective and efficient athletic movement. —Adapted from “The Overhead Lifts” by Greg Glassman",
 		"videoId": "iaBVSJm78ko",
-		"imageUrl": "../images/push-press.jpg",
+		"imageUrl": "/src/assets/push-press.jpg",
 		"category": "Foundational movement"
 	},
 	{
 		"name": "Push Jerk",
 		"description": "With the push jerk, you will be able to move overhead as much as 30 percent more weight than with the push press. Similar to the push press, the push jerk employs the hips to create upward momentum on the bar, but the athlete then pushes against the bar with the arms and dips a second time to receive the push jerk in a partial squat. With the arms locked out, the legs complete the lift. After mastering the push jerk, you will find that it will unconsciously displace the push press as your method of choice when going overhead. —Adapted from “The Overhead Lifts” by Greg Glassman",
 		"videoId": "VrHNJXoSyXw",
-		"imageUrl": "../images/push-jerk.jpg",
+		"imageUrl": "/src/assets/push-jerk.jpg",
 		"category": "Foundational movement"
 	},
 	{
 		"name": "Deadlift",
 		"description": "The deadlift is one of CrossFit’s nine foundational movements and is the safe and sound approach by which any object should be lifted from the ground. It is unrivaled in its simplicity and impact while unique in its capacity for increasing head-to-toe strength. The deadlift can be commonly seen in many everyday activities like lifting a grocery bag or picking up a child. Maintaining functionality in this hip-hinging movement is key to lifelong fitness, which is the definition of health. In an athlete’s pursuit of fitness, getting stronger in the deadlift offers a “quick boost of general strength and sense of power.” As the initiation of Olympic lifts such as the snatch and the clean and jerk, and the safe way to lift anything off the ground, the deadlift is essential in optimizing fitness and safely performing everyday tasks. CrossFit recommends deadlifting at near-max loads once per week or so and maybe one other time at loads that would be insignificant at low reps. Be patient and learn to celebrate small, infrequent bests.",
 		"videoId": "1ZXobu7JvvE",
-		"imageUrl": "../images/deadlift.jpg",
+		"imageUrl": "/src/assets/deadlift.jpg",
 		"category": "Foundational movement"
 	},
 	{
 		"name": "Sumo-Deadlift High Pull",
 		"description": "The sumo deadlift high pull builds on the deadlift, but we widen the stance and bring the grip inside the knees to facilitate a longer pulling motion. We also add velocity to the movement. The sumo deadlift high pull replicates the upward movement pattern of a clean or snatch and serves as a bridge between the deadlift and the faster lifts.",
 		"videoId": "gh55vVlwlQg",
-		"imageUrl": "../images/sumo-deadlift-high-pull.jpg",
+		"imageUrl": "/src/assets/sumo-deadlift-high-pull.jpg",
 		"category": "Foundational movement"
 	},
 	{
 		"name": "Medicine Ball Clean",
 		"description": "“The medicine ball is somewhat less intimidating than a bar, weighs less and seems to be more suggestive of the practical functionality of the clean than is the clean with the bar. The medicine-ball clean efficiently demonstrates to the developing athlete the critical sequence of the hip accelerating the object to maximum extension, the hip retreating toward the squat, and, finally, the hip squatting the object to full extension.” —Greg Glassman",
 		"videoId": "KVGhkHSrDJo",
-		"imageUrl": "../images/medicine-ball-clean.jpg",
+		"imageUrl": "/src/assets/medicine-ball-clean.jpg",
 		"category": "Foundational movement"
 	}
 ]
