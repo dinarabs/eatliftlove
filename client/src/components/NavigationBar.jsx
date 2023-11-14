@@ -1,6 +1,7 @@
-import { Navbar, NavbarBrand, NavbarContent, Input } from '@nextui-org/react'
+import { Navbar, NavbarBrand, NavbarContent } from '@nextui-org/react'
 import Logo from '../assets/eatliftlove.svg'
 import { Link } from 'react-router-dom'
+import SearchBar from './SearchBar'
 
 const NavigationBar = () => {
 	return (
@@ -19,21 +20,7 @@ const NavigationBar = () => {
 					</p>
 				</NavbarBrand>
 			</NavbarContent>
-
-			<NavbarContent as="div" className="items-center" justify="end">
-				<Input
-					classNames={{
-						base: 'max-w-full sm:max-w-[11rem] h-10',
-						mainWrapper: 'h-full',
-						input: ['text-small'],
-						inputWrapper:
-							'h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20',
-					}}
-					placeholder="Search movements..."
-					size="sm"
-					type="search"
-				/>
-			</NavbarContent>
+			<SearchBar />
 		</Navbar>
 	)
 }

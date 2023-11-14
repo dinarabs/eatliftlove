@@ -9,7 +9,7 @@ module.exports = {
       res.send(movements);
     } catch (error) {
       console.error('error', error);
-      // Handle the error or send an error response to the client
+      // Handle the error and send a generic error response to the client
       res.status(500).json({ error: 'Internal server error' });
     }
   },
@@ -22,7 +22,7 @@ module.exports = {
       res.send(movement);
     } catch (error) {
       console.error(`Error in getMovementByName: ${error.message}`);
-      // Handle the error or send an error response to the client
+      // Handle the error and send a generic error response to the client
       res.status(500).json({ error: 'Internal server error' });
     }
   },
@@ -34,7 +34,7 @@ module.exports = {
       res.send(movement);
     } catch (error) {
       console.error(`Error in getMovementByName: ${error.message}`);
-      // Handle the error or send an error response to the client
+      // Handle the error and send a generic error response to the client
       res.status(500).json({ error: 'Internal server error' });
     }
   },
