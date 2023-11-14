@@ -20,8 +20,8 @@ const MovementDetails = () => {
 	}, [movementName])
 
 	return (
-		<div className="p-2">
-			<div className="text-3xl font-bold text-center text-white">
+		<div className="flex flex-col px-6 items-center justify-center">
+			<div className="text-3xl font-bold text-center text-white p-5">
 				<h1>{data.name}</h1>
 				<Chip
 					variant="shadow"
@@ -33,16 +33,16 @@ const MovementDetails = () => {
 					{data.category}
 				</Chip>
 			</div>
-			<div className="flex flex-col items-center m-10">
+			<div className="flex flex-col items-center p-5">
 				<iframe
 					src={`${youtubeURL}${data.videoId}`}
 					title={data.name}
-					width="100%"
+					width="700"
 					height="400"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					allowFullScreen
 				></iframe>
-				<p className="pt-3 text-justify">{data.description}</p>
+				<p className="py-3 w-6/12 text-justify">{data.description}</p>
 			</div>
 		</div>
 	)
