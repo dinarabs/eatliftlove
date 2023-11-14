@@ -4,7 +4,6 @@ const fs = require('fs');
 const Workout = require('../models/workout');
 
 fs.readFile('./sampleWods.json', 'utf8', (err, data) => {
-  console.log(data);
   if (err) {
     console.error('Error reading file:', err);
     return;

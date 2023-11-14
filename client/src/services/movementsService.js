@@ -14,7 +14,6 @@ const getMovementByName = async (name) => {
 	try {
 		const data = await fetch(`${url}/movement/${name}`)
 		const resultFromDB = await data.json()
-		console.log({ resultFromDB })
 		return resultFromDB
 	} catch (error) {
 		console.log('Error fetching data from getMovementByName:', error)

@@ -13,7 +13,6 @@ const SearchBar = () => {
 		const fetchMovements = async () => {
 			// get all movements from db
 			const movementsFromDB = await getMovements()
-			console.log({ movementsFromDB })
 			setMovements(movementsFromDB)
 		}
 
