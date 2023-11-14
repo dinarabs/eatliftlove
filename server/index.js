@@ -12,6 +12,9 @@ const HOST = 'localhost';
 // enable cors
 app.use(cors());
 
+// Serve images from a directory
+app.use('/images', express.static('./images'));
+
 // handle incoming JSON data in the request body
 app.use(express.json());
 
