@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Workout from './pages/Workout'
 import Findagym from './pages/Findagym'
 import Movements from './pages/Movements'
+import MovementDetails from './pages/MovementDetails'
 
 function App() {
 	return (
@@ -20,6 +21,10 @@ function App() {
 							<Route path="/wod" element={<Workout />} />
 							<Route path="/movements" element={<Movements />} />
 							<Route path="/findagym" element={<Findagym />} />
+							<Route
+								path="/movements/:movementName"
+								element={<MovementDetails />}
+							/>
 						</Routes>
 					</div>
 					<Footer />
