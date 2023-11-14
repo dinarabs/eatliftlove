@@ -11,8 +11,8 @@
 	},
 	"dependencies": {
 		"@nextui-org/react": "^2.2.9",
-		"@react-google-maps/api": "^2.19.2",
 		"@react-stately/data": "^3.11.0",
+		"@vis.gl/react-google-maps": "^0.3.3",
 		"axios": "^1.6.1",
 		"framer-motion": "^10.16.4",
 		"react": "^18.2.0",

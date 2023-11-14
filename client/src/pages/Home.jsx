@@ -17,7 +17,7 @@ const Home = () => {
 			navLink: '/movements',
 		},
 		{
-			title: 'Find a gym nearby',
+			title: 'Find a gym',
 			img: findagymCard,
 			navLink: '/findagym',
 		},
