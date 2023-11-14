@@ -5,7 +5,7 @@ const getWODs = async () => {
 		const data = await fetch(`${url}/workouts`)
 		return await data.json()
 	} catch (error) {
-		console.log('Error fetching data from Workouts:', error)
+		console.log('Error fetching data from getWorkouts:', error)
 	}
 }
 

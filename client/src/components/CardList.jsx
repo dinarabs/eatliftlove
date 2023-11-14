@@ -1,35 +1,16 @@
 import { Card, CardFooter, Image, CardBody } from '@nextui-org/react'
-import wodCard from '../assets/wod-card.jpg'
-import movementCard from '../assets/movement-card.jpg'
-import findagymCard from '../assets/findagym-card.jpg'
+import PropTypes from 'prop-types'
+
 import { useNavigate } from 'react-router-dom'
 
-// TODO pass as props the list fields to re-use this component in Movement.jsx
-const CardList = () => {
+const CardList = ({ list }) => {
 	const navigate = useNavigate()
 
-	const list = [
-		{
-			title: 'WOD',
-			img: wodCard,
-			navLink: '/wod',
-		},
-		{
-			title: 'Movements',
-			img: movementCard,
-			navLink: '/movements',
-		},
-		{
-			title: 'Find a gym nearby',
-			img: findagymCard,
-			navLink: '/findagym',
-		},
-	]
-
 	return (
-		<div className="flex justify-between p-5 w-[1024px] mx-auto">
+		<div className="flex flex-wrap item-center justify-between p-5 max-w-[1024px] mx-auto">
 			{list.map((item, index) => (
 				<Card
+					className="m-2 bg-gradient-to-br from-[#86a2f3] to-[#1d2149]"
 					shadow="sm"
 					key={index}
 					isPressable
@@ -49,13 +30,23 @@ const CardList = () => {
 							src={item.img}
 						/>
 					</CardBody>
-					<CardFooter className="text-small justify-center">
+					<CardFooter className="text-small justify-center ">
 						<b>{item.title}</b>
 					</CardFooter>
 				</Card>
 			))}
 		</div>
 	)
+}
+
+CardList.propTypes = {
+	list: PropTypes.arrayOf(
+		PropTypes.shape({
+			title: PropTypes.string.isRequired,
+			img: PropTypes.string.isRequired,
+			navLink: PropTypes.string.isRequired,
+		})
+	).isRequired,
 }
 
 export default CardList

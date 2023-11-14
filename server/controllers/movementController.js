@@ -16,7 +16,8 @@ module.exports = {
 
   getMovementByName: async (req, res) => {
     try {
-      const movement = await Movement.findOne({ name: req.params.name });
+      const movements = await Movement.find();
+      const movement = movements.find((movement) => movement.name.toLowerCase().replace(/\s+/g, '') === req.params.name);
       res.status(200);
       res.send(movement);
     } catch (error) {
