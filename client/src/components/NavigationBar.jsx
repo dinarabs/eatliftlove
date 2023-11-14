@@ -9,7 +9,7 @@ const NavigationBar = () => {
 				<NavbarBrand className="mr-4">
 					<Link to="/">
 						<img
-							className="md:h-12 bg-fuchsia-700 md:w-12 text-white rounded-[--nextui-radius-small]"
+							className="md:h-12 bg-gradient-to-br from-indigo-500 to-pink-500 md:w-12 text-white rounded-[--nextui-radius-small]"
 							src={Logo}
 							alt="Eat Lift Love logo"
 						></img>
