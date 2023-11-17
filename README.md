@@ -5,3 +5,5 @@
 - to start server run `npm install` then `nodemon index.js`
 - to start client run `npm install` then `npm run dev`
 
+### Demo
+https://youtu.be/t4Bx4MZrSRg
