@@ -1,7 +1,6 @@
 'use strict';
 const mongoose = require('../db.js');
 
-// TODO update
 const movementSchema = mongoose.Schema({
   name: {
     type: String,
