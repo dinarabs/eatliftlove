@@ -5,7 +5,7 @@ Welcome to EatLiftLove, the ultimate destination for CrossFit aficionados. Dive 
   <img src="./client/src/assets/eatliftloveHome.png" width="100%" />
 </p>
 
-# 🚀 Getting started
+## 🚀 Getting started
 To install and use this project, take the following steps:
 
 First, make sure you have **Node.js** and **npm** installed on your local machine. Follow the steps written [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
@@ -38,13 +38,13 @@ npm run dev
 Voila!✨
 
 
-# 🛰️ Tech Stack
+## 🛰️ Tech Stack
 The app's development involved the following technology stack:
 
 - **Backend:** Node.js in conjunction with ExpressJS, and MongoDB with Moongoose for the database.
 - **Frontend:** React Vite paired with NextUI library and sprinkles of TailwindCSS.
 - **External APIs:** Google Maps API, Unsplash API, Youtube videos.
 
-# 🛸 Contributors
+## 🛸 Contributors
 
-This application was built during my time at the coding bootcamp Codeworks as part of solo project sprint (1 week). [Here](https://youtu.be/t4Bx4MZrSRg) you can find a demo recording.
+This application was built during my time at the coding bootcamp Codeworks as part of solo project sprint (1 week). [Here](https://youtu.be/t4Bx4MZrSRg) you can find a demo recording. If you would like to contribute, please feel free to send me a private message to my [LinkedIn profile](https://www.linkedin.com/in/dinara-bekeshova/)
