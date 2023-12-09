@@ -1,16 +1,50 @@
-# eatliftlove
-a website for crossfit enthusiasts, where you can view a Workout of the Day🏋🏻‍♀️, discover a detailed breakdown of each foundational crossfit movements🔬, and find selected crossfit boxes📍 in wonderful city of Berlin 🇩🇪
-<img width="1608" alt="Screenshot 2023-12-08 at 15 03 06" src="https://github.com/dinarabs/eatliftlove/assets/19465554/3a8ea60c-4460-4ff5-adfb-93ab4ff2ba2a">
+# EatLiftLove
+Welcome to EatLiftLove, the ultimate destination for CrossFit aficionados. Dive into our daily featured Workout of the Day 🏋🏻‍♀️, explore comprehensive analyses of essential CrossFit movements 🔬, and discover a curated selection of top-notch CrossFit gyms 📍 located in the vibrant city of Berlin, Germany 🇩🇪. Whether you're a seasoned athlete or just starting out, EatLiftLove is your go-to resource for all things CrossFit.
+
+<p float="left">
+  <img src="./client/src/assets/eatliftloveHome.png" width="100%" />
+</p>
+
+# 🚀 Getting started
+To install and use this project, take the following steps:
+
+First, make sure you have **Node.js** and **npm** installed on your local machine. Follow the steps written [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+First things first, populate your database with predefined script: 
+```ts
+// run this in your server's console
+npm run seedDB
+```
+
+Next, in order to be able to use Google Maps and Unsplash APIs, you need register at [Google Developer Console](https://console.developers.google.com/project) and [Unsplash Developers](https://unsplash.com/developers), then generate the following env vars and store in your local `.env` file in `/client` folder:
+
+```ts
+VITE_GOOGLE_MAPS_API_KEY=xxx
+VITE_MAP_ID=xxx
+UNSPLASH_ACCESS_KEY=xxx
+```
+IMPORTANT: .env mentioned in .gitignore so it won't be tracked. 
+
+Finally, install all necessary dependencies on both server & client sides with `npm install` or `npm i`.
+
+Now you are ready to launch the app:
+```ts
+// 	inside server folder
+npm start
+// 	inside client folder
+npm run dev
+```
+
+Voila!✨
 
 
-### Getting started
-- to start server run `npm install` then `nodemon index.js`
-- to start client run `npm install` then `npm run dev`
+# 🛰️ Tech Stack
+The app's development involved the following technology stack:
 
-### Demo
-https://youtu.be/t4Bx4MZrSRg
+- **Backend:** Node.js in conjunction with ExpressJS, and MongoDB with Moongoose for the database.
+- **Frontend:** React Vite paired with NextUI library and sprinkles of TailwindCSS.
+- **External APIs:** Google Maps API, Unsplash API, Youtube videos.
 
-Project title, followed by a brief description (max 600 characters) and some screenshots (unless you built a library).
-Getting started, where you explain to someone who has never seen your project before how to install the required dependencies, set up the dev / production environment, and run it on their computer.
-Tech stack, highlighting the core technologies you used (e.g. framework, DB, and anything else that is interesting / relevant).
-Contributors (the team behind it, for group projects)
+# 🛸 Contributors
+
+This application was built during my time at the coding bootcamp Codeworks as part of solo project sprint (1 week). [Here](https://youtu.be/t4Bx4MZrSRg) you can find a demo recording.
