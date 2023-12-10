@@ -1,5 +1,5 @@
 # EatLiftLove
-Welcome to EatLiftLove, the ultimate destination for CrossFit aficionados. Dive into our daily featured Workout of the Day 🏋🏻‍♀️, explore comprehensive analyses of essential CrossFit movements 🔬, and discover a curated selection of top-notch CrossFit gyms 📍 located in the vibrant city of Berlin, Germany 🇩🇪. Whether you're a seasoned athlete or just starting out, EatLiftLove is your go-to resource for all things CrossFit.
+Welcome to EatLiftLove, the ultimate destination for CrossFit enthusiasts. Dive into our daily featured Workout of the Day 🏋🏻‍♀️, explore comprehensive analyses of essential CrossFit movements 🔬, and discover a curated selection of recommended CrossFit gyms 📍 located in the vibrant city of Berlin, Germany 🇩🇪. Whether you're a seasoned athlete or just starting out, EatLiftLove is your go-to resource for all things CrossFit.
 
 <p float="left">
   <img src="./client/src/assets/eatliftloveHome.png" width="100%" />
